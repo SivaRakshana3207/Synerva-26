@@ -74,7 +74,6 @@ export default function Hero() {
       id="home"
       className="hero pt-24 overflow-hidden"
     >
-
       {/* ============================================================
           BACKGROUND
       ============================================================ */}
@@ -85,15 +84,13 @@ export default function Hero() {
 
       <div className="hero-orb orb-2"></div>
 
-
       {/* ============================================================
           MAIN CONTAINER
       ============================================================ */}
 
-      <div className="relative z-10 mx-auto max-w-[1500px] px-6 sm:px-8 lg:px-14 xl:px-20 2xl:px-24 w-full">
+      <div className="relative z-10 mx-auto max-w-[1500px] px-5 sm:px-8 lg:px-14 xl:px-20 2xl:px-24 w-full">
 
         <div className="grid items-center gap-14 xl:gap-20 lg:grid-cols-[1.08fr_.92fr]">
-
 
           {/* ========================================================
               LEFT CONTENT
@@ -102,24 +99,73 @@ export default function Hero() {
           <div
             data-aos="fade-right"
             data-aos-duration="1000"
-            className="max-w-3xl"
+            className="w-full max-w-3xl"
           >
 
             {/* ======================================================
-                COLLEGE BADGE
+                COLLEGE NAME — LARGE & HIGHLIGHTED
             ====================================================== */}
 
-            <div className="hero-badge inline-flex items-center gap-2 rounded-full px-5 py-3 text-xs font-bold text-rose-800 shadow-sm">
+            <div
+              className="
+                mb-5
+                inline-flex
+                max-w-full
+                items-center
+                gap-2
+                rounded-full
+                border
+                border-rose-200
+                bg-white/90
+                px-4
+                py-2.5
+                shadow-md
+                backdrop-blur-md
+              "
+            >
 
-              <span className="relative flex h-2 w-2">
+              <span className="relative flex h-2.5 w-2.5 shrink-0">
 
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-rose-500 opacity-75"></span>
+                <span
+                  className="
+                    absolute
+                    inline-flex
+                    h-full
+                    w-full
+                    animate-ping
+                    rounded-full
+                    bg-rose-500
+                    opacity-75
+                  "
+                ></span>
 
-                <span className="relative inline-flex h-2 w-2 rounded-full bg-rose-600"></span>
+                <span
+                  className="
+                    relative
+                    inline-flex
+                    h-2.5
+                    w-2.5
+                    rounded-full
+                    bg-rose-600
+                  "
+                ></span>
 
               </span>
 
-              Arunachala College of Engineering for Women
+              <span
+                className="
+                  whitespace-nowrap
+                  text-xs
+                  sm:text-sm
+                  md:text-base
+                  lg:text-lg
+                  font-black
+                  tracking-tight
+                  text-rose-900
+                "
+              >
+                Arunachala College of Engineering for Women
+              </span>
 
             </div>
 
@@ -128,10 +174,19 @@ export default function Hero() {
                 DEPARTMENT
             ====================================================== */}
 
-            <p className="mt-8 text-xs md:text-sm font-black uppercase tracking-[.35em] text-rose-700">
-
+            <p
+              className="
+                text-[10px]
+                sm:text-xs
+                md:text-sm
+                font-black
+                uppercase
+                tracking-[.22em]
+                sm:tracking-[.28em]
+                text-rose-700
+              "
+            >
               Department of Computer Science & Engineering
-
             </p>
 
 
@@ -139,16 +194,33 @@ export default function Hero() {
                 SYNERVA BRAND
             ====================================================== */}
 
-            <h1 className="hero-brandline mt-5 text-5xl sm:text-7xl lg:text-8xl font-black tracking-tight leading-none whitespace-nowrap">
+            <h1
+              className="
+                hero-brandline
+                mt-5
+                text-5xl
+                sm:text-7xl
+                lg:text-8xl
+                font-black
+                tracking-tight
+                leading-none
+                whitespace-nowrap
+              "
+            >
 
               <span className="gradient-text">
                 SYNERVA
               </span>
 
-              <span className="text-3xl sm:text-5xl lg:text-6xl text-gray-500">
-
+              <span
+                className="
+                  text-3xl
+                  sm:text-5xl
+                  lg:text-6xl
+                  text-gray-500
+                "
+              >
                 '26
-
               </span>
 
             </h1>
@@ -156,16 +228,32 @@ export default function Hero() {
 
             {/* ======================================================
                 MAIN TITLE
+                ONE LINE — RESPONSIVE
             ====================================================== */}
 
-            <h2 className="mt-8 text-3xl md:text-5xl font-black leading-tight">
+            <h2
+              className="
+                mt-6
+                w-full
+                whitespace-nowrap
+                text-left
+                text-[14px]
+                sm:text-sm
+                md:text-xl
+                lg:text-[2rem]
+                xl:text-[2.15rem]
+                font-black
+                leading-tight
+                tracking-tight
+              "
+            >
 
-              National Level{" "}
+              <span className="text-gray-900">
+                National Level
+              </span>{" "}
 
               <span className="gradient-text">
-
                 Technical Symposium
-
               </span>
 
             </h2>
@@ -175,12 +263,19 @@ export default function Hero() {
                 DESCRIPTION
             ====================================================== */}
 
-            <p className="mt-6 max-w-2xl text-sm md:text-lg leading-8 text-gray-500">
-
+            <p
+              className="
+                mt-6
+                max-w-2xl
+                text-sm
+                md:text-lg
+                leading-8
+                text-gray-500
+              "
+            >
               Where technology meets creativity, competition
               and innovation. Step into an experience designed
               for the next generation of problem solvers.
-
             </p>
 
 
@@ -194,13 +289,24 @@ export default function Hero() {
 
               <a
                 href="#events"
-                className="shine btn btn-lg border-0 rounded-full px-8 text-white wine-gradient shadow-xl hover:scale-[1.03] transition-all duration-300"
+                className="
+                  shine
+                  btn
+                  btn-lg
+                  border-0
+                  rounded-full
+                  px-8
+                  text-white
+                  wine-gradient
+                  shadow-xl
+                  hover:scale-[1.03]
+                  transition-all
+                  duration-300
+                "
               >
-
                 Explore Events
 
                 <i className="bi bi-arrow-right"></i>
-
               </a>
 
 
@@ -208,13 +314,25 @@ export default function Hero() {
 
               <a
                 href="#register"
-                className="btn btn-lg rounded-full border border-rose-200 bg-white px-8 text-rose-800 shadow-sm hover:shadow-lg hover:scale-[1.03] transition-all duration-300"
+                className="
+                  btn
+                  btn-lg
+                  rounded-full
+                  border
+                  border-rose-200
+                  bg-white
+                  px-8
+                  text-rose-800
+                  shadow-sm
+                  hover:shadow-lg
+                  hover:scale-[1.03]
+                  transition-all
+                  duration-300
+                "
               >
-
                 Register Now
 
                 <i className="bi bi-person-plus"></i>
-
               </a>
 
             </div>
@@ -226,32 +344,50 @@ export default function Hero() {
 
             <div className="mt-12 mb-20">
 
-              <p className="mb-4 text-[10px] font-black uppercase tracking-[.3em] text-gray-400">
-
+              <p
+                className="
+                  mb-4
+                  text-[10px]
+                  font-black
+                  uppercase
+                  tracking-[.3em]
+                  text-gray-400
+                "
+              >
                 Event Begins In
-
               </p>
 
 
               <div className="grid grid-cols-4 gap-2 sm:gap-3 max-w-xl">
 
-
                 {/* ==================================================
                     DAYS
                 ================================================== */}
 
-                <div className="stat bg-white rounded-2xl shadow-sm border border-rose-100 px-3 py-4 text-center hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+                <div
+                  className="
+                    stat
+                    bg-white
+                    rounded-2xl
+                    shadow-sm
+                    border
+                    border-rose-100
+                    px-3
+                    py-4
+                    text-center
+                    hover:-translate-y-1
+                    hover:shadow-md
+                    transition-all
+                    duration-300
+                  "
+                >
 
                   <div className="stat-value text-2xl sm:text-4xl gradient-text">
-
                     {timeLeft.days}
-
                   </div>
 
                   <div className="stat-desc text-[9px] font-bold uppercase tracking-widest">
-
                     Days
-
                   </div>
 
                 </div>
@@ -261,18 +397,30 @@ export default function Hero() {
                     HOURS
                 ================================================== */}
 
-                <div className="stat bg-white rounded-2xl shadow-sm border border-rose-100 px-3 py-4 text-center hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+                <div
+                  className="
+                    stat
+                    bg-white
+                    rounded-2xl
+                    shadow-sm
+                    border
+                    border-rose-100
+                    px-3
+                    py-4
+                    text-center
+                    hover:-translate-y-1
+                    hover:shadow-md
+                    transition-all
+                    duration-300
+                  "
+                >
 
                   <div className="stat-value text-2xl sm:text-4xl gradient-text">
-
                     {timeLeft.hours}
-
                   </div>
 
                   <div className="stat-desc text-[9px] font-bold uppercase tracking-widest">
-
                     Hours
-
                   </div>
 
                 </div>
@@ -282,18 +430,30 @@ export default function Hero() {
                     MINUTES
                 ================================================== */}
 
-                <div className="stat bg-white rounded-2xl shadow-sm border border-rose-100 px-3 py-4 text-center hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+                <div
+                  className="
+                    stat
+                    bg-white
+                    rounded-2xl
+                    shadow-sm
+                    border
+                    border-rose-100
+                    px-3
+                    py-4
+                    text-center
+                    hover:-translate-y-1
+                    hover:shadow-md
+                    transition-all
+                    duration-300
+                  "
+                >
 
                   <div className="stat-value text-2xl sm:text-4xl gradient-text">
-
                     {timeLeft.minutes}
-
                   </div>
 
                   <div className="stat-desc text-[9px] font-bold uppercase tracking-widest">
-
                     Minutes
-
                   </div>
 
                 </div>
@@ -303,18 +463,30 @@ export default function Hero() {
                     SECONDS
                 ================================================== */}
 
-                <div className="stat bg-white rounded-2xl shadow-sm border border-rose-100 px-3 py-4 text-center hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+                <div
+                  className="
+                    stat
+                    bg-white
+                    rounded-2xl
+                    shadow-sm
+                    border
+                    border-rose-100
+                    px-3
+                    py-4
+                    text-center
+                    hover:-translate-y-1
+                    hover:shadow-md
+                    transition-all
+                    duration-300
+                  "
+                >
 
                   <div className="stat-value text-2xl sm:text-4xl gradient-text">
-
                     {timeLeft.seconds}
-
                   </div>
 
                   <div className="stat-desc text-[9px] font-bold uppercase tracking-widest">
-
                     Seconds
-
                   </div>
 
                 </div>
@@ -334,30 +506,63 @@ export default function Hero() {
           <div
             data-aos="zoom-in"
             data-aos-duration="1200"
-            className="hidden lg:flex justify-center items-center relative min-h-[600px] -translate-y-12 xl:-translate-y-16"
+            className="
+              hidden
+              lg:flex
+              justify-center
+              items-center
+              relative
+              min-h-[600px]
+              -translate-y-12
+              xl:-translate-y-16
+            "
           >
-
 
             {/* ======================================================
                 OUTER ROSE GLOW
             ====================================================== */}
 
-            <div className="absolute w-[440px] h-[440px] rounded-full bg-rose-300/20 blur-3xl animate-pulse"></div>
+            <div
+              className="
+                absolute
+                w-[440px]
+                h-[440px]
+                rounded-full
+                bg-rose-300/20
+                blur-3xl
+                animate-pulse
+              "
+            ></div>
 
 
             {/* ======================================================
                 SECOND SOFT GLOW
             ====================================================== */}
 
-            <div className="absolute w-[340px] h-[340px] rounded-full bg-pink-200/30 blur-3xl"></div>
+            <div
+              className="
+                absolute
+                w-[340px]
+                h-[340px]
+                rounded-full
+                bg-pink-200/30
+                blur-3xl
+              "
+            ></div>
 
 
             {/* ======================================================
                 IMAGE COMPOSITION
             ====================================================== */}
 
-            <div className="relative w-[460px] xl:w-[500px] 2xl:w-[530px]">
-
+            <div
+              className="
+                relative
+                w-[460px]
+                xl:w-[500px]
+                2xl:w-[530px]
+              "
+            >
 
               {/* ==================================================
                   DECORATIVE ROTATING BORDER
@@ -411,7 +616,6 @@ export default function Hero() {
                   backdrop-blur-xl
                 "
               >
-
 
                 {/* ==================================================
                     COLLEGE PHOTO
@@ -616,7 +820,6 @@ export default function Hero() {
                   blur-xl
                 "
               ></div>
-
 
             </div>
 

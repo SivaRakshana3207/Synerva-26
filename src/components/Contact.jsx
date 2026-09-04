@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const markup = String.raw`<section id="contact" class="contact-section section">
@@ -57,38 +58,38 @@ const markup = String.raw`<section id="contact" class="contact-section section">
             </div>
 
 
-            <!-- JOSHNA CONTACT -->
-            <div class="contact-card">
+          <!-- STUDENT COORDINATOR -->
+<div class="contact-card">
 
-                <div class="contact-icon">
-                    <i class="bi bi-telephone-fill"></i>
-                </div>
+    <div class="contact-icon">
+        <i class="bi bi-telephone-fill"></i>
+    </div>
 
-                <p class="mt-6 text-xs font-black uppercase tracking-widest text-rose-600">
-                    Contact Us
-                </p>
+    <p class="mt-6 text-xs font-black uppercase tracking-widest text-rose-600">
+        Student Co-ordinator
+    </p>
 
-                <h3 class="mt-2 text-xl font-black">
-                    Joshna
-                </h3>
+    <h3 class="mt-2 text-xl font-black">
+        Jyotsna Antony
+    </h3>
 
-                <p class="mt-3 text-sm text-gray-500">
-                    Student Coordinator · Final Year CSE
-                </p>
+    <p class="mt-2 text-sm text-gray-500">
+        Final Year
+    </p>
 
-                <p class="mt-2 text-sm font-bold text-gray-700">
-                    +91 8270393550
-                </p>
+    <p class="mt-2 text-sm font-semibold text-gray-700">
+        +91 8270393550
+    </p>
 
-                <a
-                    href="tel:+91 8270393550"
-                    class="mt-6 inline-flex items-center gap-2 text-sm font-bold text-rose-700"
-                >
-                    Call Joshna
-                    <i class="bi bi-arrow-up-right"></i>
-                </a>
+    <a
+        href="tel:+918270393550"
+        class="mt-5 inline-flex items-center gap-2 text-sm font-bold text-rose-700"
+    >
+        Call Jyotsna
+        <i class="bi bi-arrow-up-right"></i>
+    </a>
 
-            </div>
+</div>
 
 
             <!-- ORGANIZING TEAM -->
@@ -102,20 +103,30 @@ const markup = String.raw`<section id="contact" class="contact-section section">
                     Organizing Team
                 </p>
 
-                <h3 class="mt-2 text-xl font-black">
-                    Coordinators
-                </h3>
+              
 
-                <div class="mt-4 space-y-3 text-sm">
+                <div class="mt-4 space-y-4 text-sm">
 
-                    <!-- HOD -->
+                    <!-- CONVENOR -->
                     <div>
                         <p class="font-bold text-gray-700">
                             Dr. T.V. Chithra
                         </p>
 
                         <p class="text-gray-500">
-                            Head of the Department · CSE
+                            Convenor
+                        </p>
+                    </div>
+
+
+                    <!-- CO-CONVENOR -->
+                    <div>
+                        <p class="font-bold text-gray-700">
+                            Dr. K. Brintha
+                        </p>
+
+                        <p class="text-gray-500">
+                            Co-Convenor
                         </p>
                     </div>
 
@@ -123,13 +134,14 @@ const markup = String.raw`<section id="contact" class="contact-section section">
                     <!-- COORDINATOR -->
                     <div>
                         <p class="font-bold text-gray-700">
-                            Mrs. N. Visalatchi
+                            Ms. N. Visalatchi
                         </p>
 
                         <p class="text-gray-500">
-                            Assistant Professor · CSE
+                            Coordinator
                         </p>
                     </div>
+
 
                 </div>
 
