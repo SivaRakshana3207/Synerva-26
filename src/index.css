@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import "aos/dist/aos.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+html { scroll-behavior: smooth; }
+body { margin: 0; }
