@@ -23,10 +23,11 @@ const markup = String.raw`<footer class="footer-main text-white">
                 </p>
 
                 <div class="mt-7 flex gap-3">
-                    <a href="#" class="social-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="social-btn" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="social-btn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" class="social-btn" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+                    <a href="https://www.instagram.com/arunachala_engineering_college?igsi=MW4xcW0yZHZhYWJhMw==" class="social-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/school/arunachala-college-of-engineering-for-women-kanyakumari/" class="social-btn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="mailto:synerva2026@gmail.com" class="social-btn" aria-label="Email">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
                 </div>
             </div>
 
@@ -34,7 +35,7 @@ const markup = String.raw`<footer class="footer-main text-white">
                 <h3 class="text-sm font-black uppercase tracking-widest">Explore</h3>
                 <div class="mt-6 flex flex-col gap-4 text-sm text-rose-100">
                     <a href="#home" class="hover:text-white transition">Home</a>
-                    <a href="#department" class="hover:text-white transition">CSE Department</a>
+                    <a href="#department" class="hover:text-white transition">About</a>
                     <a href="#timeline" class="hover:text-white transition">Timeline</a>
                     <a href="#events" class="hover:text-white transition">Events</a>
                     <a href="#gallery" class="hover:text-white transition">Gallery</a>
