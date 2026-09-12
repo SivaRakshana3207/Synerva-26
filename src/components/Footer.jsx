@@ -25,7 +25,7 @@ const markup = String.raw`<footer class="footer-main text-white">
                 <div class="mt-7 flex gap-3">
                     <a href="https://www.instagram.com/arunachala_engineering_college?igsi=MW4xcW0yZHZhYWJhMw==" class="social-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
                     <a href="https://www.linkedin.com/school/arunachala-college-of-engineering-for-women-kanyakumari/" class="social-btn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                    <a href="mailto:synerva2026@gmail.com" class="social-btn" aria-label="Email">
+                    <a href="mailto:synerva26cse@gmail.com" class="social-btn" aria-label="Email">
                         <i class="bi bi-envelope-fill"></i>
                     </a>
                 </div>

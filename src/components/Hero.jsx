@@ -313,7 +313,7 @@ export default function Hero() {
               {/* REGISTER NOW */}
 
               <a
-                href="#register"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc3RKwFp2Vctr2UcBu9SIWfDJ7AvpgLwpccr7dlV5taegjw1w/viewform?usp=dialog"
                 className="
                   btn
                   btn-lg

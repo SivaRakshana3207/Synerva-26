@@ -44,11 +44,11 @@ const markup = String.raw`<section id="contact" class="contact-section section">
                 </h3>
 
                 <p class="mt-3 text-sm text-gray-500 break-all">
-                    synerva2026@gmail.com
+                    synerva26cse@gmail.com
                 </p>
 
                 <a
-                    href="mailto:synerva2026@gmail.com"
+                    href="mailto:synerva26cse@gmail.com"
                     class="mt-6 inline-flex items-center gap-2 text-sm font-bold text-rose-700"
                 >
                     Send Email
@@ -70,7 +70,7 @@ const markup = String.raw`<section id="contact" class="contact-section section">
     </p>
 
     <h3 class="mt-2 text-xl font-black">
-        Jyotsna Antony
+        C. Teenu Caroline
     </h3>
 
     <p class="mt-2 text-sm text-gray-500">
@@ -78,14 +78,14 @@ const markup = String.raw`<section id="contact" class="contact-section section">
     </p>
 
     <p class="mt-2 text-sm font-semibold text-gray-700">
-        +91 8270393550
+        +91 8124706272
     </p>
 
     <a
-        href="tel:+918270393550"
+        href="tel:+918124706272"
         class="mt-5 inline-flex items-center gap-2 text-sm font-bold text-rose-700"
     >
-        Call Jyotsna
+        Call Teenu Caroline
         <i class="bi bi-arrow-up-right"></i>
     </a>
 
